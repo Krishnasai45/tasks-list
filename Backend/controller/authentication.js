@@ -25,6 +25,7 @@ const registerUser = async (req, res) => {
 
     res.json({
       message: `${name} registered Successfully`,
+      isRegisterd : true,
       email,
     });
   } catch (error) {
