@@ -1,0 +1,84 @@
+.editModal-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .editModal {
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: white;
+    width: 35%;
+  }
+    
+  .close {
+    cursor: pointer;
+    margin-top: 13px;
+  }
+  .close svg{
+    font-size: 18px;
+  }
+  
+  .editModal-header {
+    float: right;
+  }
+  
+  .editModal-content img{
+    margin-top: 20px;
+  }
+
+  
+  .editModal-footer {
+    width: 25%;
+    margin-right: 25px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+  }
+  .editModal-footer div:hover{
+    cursor: pointer;
+  }
+  .editModal-footer .cancle{
+    color: #00662D;
+  }
+  .editModal-footer .send{
+    width: 50%;
+    border: solid 1px  #00662D;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background:#00662D ;
+    border-radius: 25px;
+    height: 22px;
+  }
+
+  .assign input,.status select,.task input{
+    background-color: transparent;
+    border: 0.2px solid rgb(161, 161, 161);
+    height: 35px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  
+  .assign label,.status label,.task label,.disc label{
+    font-size: 15px;
+    color: rgb(68, 68, 65);
+    margin: 5px;
+  }
+
+  .disc textarea{
+    background-color: transparent;
+    border: 0.2px solid rgb(161, 161, 161);
+    /* max-width: 150px; */
+    width: 250px;
+    height: 100px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }

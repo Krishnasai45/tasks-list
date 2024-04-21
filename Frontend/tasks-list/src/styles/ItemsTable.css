@@ -1,0 +1,96 @@
+.ItemsTable{
+    max-width: 95%;
+    margin: auto;
+}
+table,thead,tbody{
+    width: 98%;
+}
+table{
+    margin: 0px 20px;
+    font-size: 14px;
+    margin-top: 15px;
+    color: #515050;
+}
+td.brand,td.price{
+    width: 10%;
+}
+td.qty,td.total{
+    width: 8%;
+}
+td.brand{
+   margin-left: 5px;
+}
+td.pname,td.status{
+    width: 28%;
+}
+thead tr{
+    display: flex;
+    justify-content: space-between;
+    border: solid 0.5px #e7e7e7;
+    border-radius: 10px;
+    padding: 5px 0px;
+    font-weight: 500;
+}
+tbody tr{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 0.5px #e7e7e7;
+    border-radius: 10px;
+    padding: 5px 0px;
+    font-weight: 500;
+}
+tbody tr td.pname{
+    text-align: start;
+    display: flex;
+}
+td.pname img{
+    margin-right: 5px;
+}
+tbody tr td.status{
+    background: #ececec;
+    border-radius: 5px;
+
+}
+
+.mainStatus{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.leftStatus{
+    width:50% ;
+
+}
+.actions{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    justify-items: center;
+    margin-top: 1px;
+}
+.actions svg{
+    font-size: 20px;
+}
+
+.actions div:hover,.actions svg:hover{
+    cursor: pointer;
+}
+.newStatus{
+    /* max-width: 98%; */
+    margin: 0px 5px;
+    border-radius: 25px;
+    /* color: white; */
+
+}
+.addButton{
+    width: 100px;
+        height: 30px;
+        float: right;
+        border: solid 1px #010520;
+        text-align: center;
+        border-radius: 50px;
+        line-height: 27px;
+        margin: 15px 0px;
+        cursor: pointer;
+}

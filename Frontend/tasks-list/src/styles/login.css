@@ -1,0 +1,92 @@
+.conatiner {
+    max-width: 300px;
+    min-width: 200px;
+    text-align: start;
+    padding: 30px;
+    margin:auto;
+  }
+
+  .error {
+    color: red;
+  }
+  h4 {
+    margin-left: 5px;
+  }
+  .email,
+  .password,.name {
+    width: 100%;
+    margin: 15px 0px;
+  }
+  
+  .email label,
+  .password label,
+  .name label {
+    font-size: 15px;
+    font-family: Lato;
+    color: rgb(187, 187, 185);
+    margin: 5px;
+  }
+  
+  .email input,
+  .password input,
+  .name input {
+    background-color: transparent;
+    border: 0.2px solid rgb(161, 161, 161);
+    height: 35px;
+    font-size: smaller;
+    width: 100%;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: rgb(105, 105, 255);
+    align-items: center;
+    border-radius: 5px;
+  }
+  .submit {
+    background-color: transparent;
+    border: 0.2px solid rgb(161, 161, 161);
+    height: 35px;
+    font-size: smaller;
+    font-weight: 600;
+    width: 100%;
+    margin-left: 5px;
+    margin-top: 5px;
+    align-items: center;
+    border-radius: 5px;
+    background: rgb(211, 207, 243);
+    color: blue;
+  }
+  .submitNext {
+    background-color: transparent;
+    border: 0.2px solid rgb(161, 161, 161);
+    height: 35px;
+    font-size: smaller;
+    font-weight: 600;
+    width: 100%;
+    margin-left: 5px;
+    margin-top: 5px;
+    align-items: center;
+    border-radius: 5px;
+    color: rgb(211, 207, 243);
+    background: blue;
+  }
+  
+ .password svg {
+    float: right;
+    position: relative;
+    top: -28px;
+  }
+  input:focus {
+    outline: none;
+  }
+  .checked {
+    display: flex;
+    margin-bottom: 25px;
+  }
+  .checked label {
+    font-size: 15px;
+    margin-left: 5px;
+  }
+  .checked input {
+    margin: 5px;
+    border: 0.2px solid rgb(161, 161, 161);
+  }
