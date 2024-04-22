@@ -3,7 +3,6 @@ const mongoose = require("mongoose")
 const cors = require("cors");
 const dotenv = require("dotenv")
 const app = express()
-const User = require('./models/userModel')
 const Tasks = require('./models/tasksModel')
 const mainRoutes = require('./Routes/mainRoutes')
 app.use(cors());
@@ -11,8 +10,7 @@ app.use(express.json());
 dotenv.config();
 
 
-mongoose.connect(
-    process.env.MONGO_DB,    { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true },
+mongoose.connect(process.env.MONGO_DB, { useNewUrlParser: true, useUnifiedTopology: true },
     (error) => {
       if (error) console.log(`error connecting database : ${error}`);
       else console.log("Database is successfully connected");

@@ -1,0 +1,24 @@
+{
+  "name": "tasks-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    
+      "dev": "concurrently \"cd frontend/tasks-list && npm start\" \"cd backend && npm start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krishnasai45/tasks-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Krishnasai45/tasks-list/issues"
+  },
+  "homepage": "https://github.com/Krishnasai45/tasks-list#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
